@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddProduct"
+    android:orientation="vertical"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Id: "
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/edt_AddId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="2"
+            android:layout_weight="3"
+            android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Ten Product: "
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/edt_AddProduct"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Phap Luat Dai Cuong"
+            android:layout_weight="3"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Producer: "
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/edt_AddProducer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="PLDC 301"
+            android:layout_weight="3"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Mieu Ta: "
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/edt_AddMieuTa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Phap Luat Dai Cuong la mot mon hoc bat buoc"
+            android:layout_weight="3"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Gia : "
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/edt_AddGia"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="4000000"
+            android:layout_weight="3"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_AddProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"/>
+
+</LinearLayout>

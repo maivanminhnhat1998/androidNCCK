@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "672185844617",
+    "firebase_url": "https://androidck-5705c.firebaseio.com",
+    "project_id": "androidck-5705c",
+    "storage_bucket": "androidck-5705c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672185844617:android:7db19cf1f92c9240",
+        "android_client_info": {
+          "package_name": "com.example.administrator.androidncck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672185844617-g8hdar2gj9j2076o57d61v31pba5niul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH6_3xct4eDn0ACmnShjDGRCsrCzDbRbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672185844617-g8hdar2gj9j2076o57d61v31pba5niul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
